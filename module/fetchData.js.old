@@ -1,0 +1,44 @@
+export async function fetchData() {
+	const response = await fetch("users.json");
+	const users = await response.json();
+
+	// console.log(response);
+	// console.log(users);
+	// let prenoms = [];
+
+	// users.forEach((user) => {
+	// 	prenoms.push(user.prenom);
+	// 	console.log(
+	// 		"-------------------------------------------------------------------------------------------------------------"
+	// 	);
+	// 	console.log(
+	// 		"Bonjour, je m'apelle " +
+	// 			user.prenom +
+	// 			" " +
+	// 			user.nom +
+	// 			" et j'ai " +
+	// 			user.age +
+	// 			" ans."
+	// 	);
+	// 	console.log(
+	// 		"Mon numéro de téléphone est: " +
+	// 			user.contacts.tel +
+	// 			" et mon lien github est: " +
+	// 			user.contacts.reseaux.github
+	// 	);
+	// 	console.log(
+	// 		user.notes.javascript
+	// 			? "J'ai " +
+	// 					user.diplomes.length +
+	// 					" diplôme et j'ai une note de " +
+	// 					user.notes.javascript +
+	// 					" en JavaScript"
+	// 			: "J'ai " +
+	// 					user.diplomes.length +
+	// 					" diplôme et mais je n'ai pas de notes en Javascript"
+	// 	);
+	// 	console.log(
+	// 		"J'ai actuellement " + user.projets.length + " projet en cours."
+	// 	);
+	// });
+}

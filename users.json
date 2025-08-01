@@ -1,0 +1,633 @@
+[
+	{
+		"age": 24,
+		"competences": ["html", "css", "javascript", "php", "flutter"],
+		"contacts": {
+			"email": "eszter.bali@mail.com",
+			"reseaux": {
+				"github": "https://github.com/balieszter",
+				"linkedin": "https://linkedin.com/in/balieszter"
+			},
+			"tel": "06 83 74 98 61"
+		},
+		"diplomes": [
+			{
+				"annee_obtention": 2021,
+				"etablissement": {
+					"nom": "Université de Lille",
+					"type": "Université",
+					"ville": "Lille"
+				},
+				"intitule": "Licence Informatique"
+			},
+			{
+				"annee_obtention": 2019,
+				"etablissement": {
+					"nom": "Lycée Turgot",
+					"type": "Lycée",
+					"ville": "Paris"
+				},
+				"intitule": "BTS SIO"
+			}
+		],
+		"estActif": true,
+		"hobbies": ["voyage", "musique", "cinéma"],
+		"nom": "bali",
+		"notes": {
+			"css": 13,
+			"flutter": 15,
+			"html": 17,
+			"javascript": 16,
+			"php": 12,
+			"react": 14
+		},
+		"outils": ["git", "docker", "trello"],
+		"prenom": "eszter",
+		"profession": "Développeur web",
+		"projets": [
+			{
+				"annee": 2022,
+				"en_ligne": false,
+				"technos": ["react", "api"],
+				"titre": "Projet 1 de bali"
+			},
+			{
+				"annee": 2024,
+				"en_ligne": true,
+				"technos": ["php", "mysql"],
+				"titre": "Projet 2 de bali"
+			}
+		]
+	},
+	{
+		"age": 27,
+		"competences": ["css", "javascript", "react", "php"],
+		"contacts": {
+			"email": "ludovic.kader@mail.com",
+			"reseaux": {
+				"github": "https://github.com/ludovickader",
+				"linkedin": "https://linkedin.com/in/ludovickader"
+			},
+			"tel": "06 71 42 95 38"
+		},
+		"diplomes": [
+			{
+				"annee_obtention": 2020,
+				"etablissement": {
+					"nom": "IUT de Lyon",
+					"type": "IUT",
+					"ville": "Lyon"
+				},
+				"intitule": "BUT MMI"
+			}
+		],
+		"estActif": false,
+		"hobbies": ["jeux vidéo", "dessin", "cinéma"],
+		"nom": "kader",
+		"notes": {
+			"css": 15,
+			"flutter": 16,
+			"html": 13,
+			"javascript": 14,
+			"php": 11,
+			"react": 17
+		},
+		"outils": ["trello"],
+		"prenom": "ludovic",
+		"profession": "UX Designer",
+		"projets": [
+			{
+				"annee": 2023,
+				"en_ligne": false,
+				"technos": ["flutter", "firebase"],
+				"titre": "Projet 1 de ludovic"
+			}
+		]
+	},
+	{
+		"age": 22,
+		"competences": ["html", "css", "javascript", "react", "php", "flutter"],
+		"contacts": {
+			"email": "bellin.jordan@mail.com",
+			"reseaux": {
+				"github": "https://github.com/bellinjordan",
+				"linkedin": "https://linkedin.com/in/bellinjordan"
+			},
+			"tel": "06 29 83 17 66"
+		},
+		"diplomes": [
+			{
+				"annee_obtention": 2022,
+				"etablissement": {
+					"nom": "Université de Strasbourg",
+					"type": "Université",
+					"ville": "Strasbourg"
+				},
+				"intitule": "BTS SIO"
+			}
+		],
+		"estActif": true,
+		"hobbies": ["musique", "lecture", "voyage"],
+		"nom": "bellin",
+		"notes": {
+			"css": 14,
+			"flutter": 14,
+			"html": 12,
+			"javascript": 15,
+			"php": 13,
+			"react": 16
+		},
+		"outils": ["git", "docker"],
+		"prenom": "jordan",
+		"profession": "Développeur back-end",
+		"projets": [
+			{
+				"annee": 2023,
+				"en_ligne": true,
+				"technos": ["javascript", "nodejs"],
+				"titre": "Projet 1 de bellin"
+			}
+		]
+	},
+	{
+		"age": 28,
+		"competences": ["html", "css", "javascript", "react"],
+		"contacts": {
+			"email": "valentin.muller@mail.com",
+			"reseaux": {
+				"github": "https://github.com/valentinmuller",
+				"linkedin": "https://linkedin.com/in/valentinmuller"
+			},
+			"tel": "06 51 27 83 44"
+		},
+		"diplomes": [
+			{
+				"annee_obtention": 2021,
+				"etablissement": {
+					"nom": "Université de Bordeaux",
+					"type": "Université",
+					"ville": "Bordeaux"
+				},
+				"intitule": "Licence Pro Web"
+			},
+			{
+				"annee_obtention": 2019,
+				"etablissement": {
+					"nom": "IUT de Lyon",
+					"type": "IUT",
+					"ville": "Lyon"
+				},
+				"intitule": "DUT Informatique"
+			}
+		],
+		"estActif": true,
+		"hobbies": ["sport", "voyage", "jeux vidéo"],
+		"nom": "muller",
+		"notes": {
+			"css": 15,
+			"flutter": 12,
+			"html": 16,
+			"php": 10,
+			"react": 16
+		},
+		"outils": ["git", "trello"],
+		"prenom": "valentin",
+		"profession": "Développeur full-stack",
+		"projets": [
+			{
+				"annee": 2023,
+				"en_ligne": true,
+				"technos": ["php", "mysql"],
+				"titre": "Projet 1 de valentin"
+			},
+			{
+				"annee": 2024,
+				"en_ligne": false,
+				"technos": ["html", "css", "javascript"],
+				"titre": "Projet 2 de valentin"
+			}
+		]
+	},
+	{
+		"age": 30,
+		"competences": ["javascript", "react", "php", "flutter"],
+		"contacts": {
+			"email": "damien.carrere@mail.com",
+			"reseaux": {
+				"github": "https://github.com/damiencarrere",
+				"linkedin": "https://linkedin.com/in/damiencarrere"
+			},
+			"tel": "06 98 74 61 22"
+		},
+		"diplomes": [
+			{
+				"annee_obtention": 2023,
+				"etablissement": {
+					"nom": "Université de Strasbourg",
+					"type": "Université",
+					"ville": "Strasbourg"
+				},
+				"intitule": "Master Dev Web"
+			}
+		],
+		"estActif": false,
+		"hobbies": ["lecture", "cinéma", "musique"],
+		"nom": "carrere",
+		"notes": {
+			"css": 13,
+			"flutter": 13,
+			"html": 14,
+			"javascript": 16,
+			"php": 14,
+			"react": 15
+		},
+		"outils": ["docker", "git"],
+		"prenom": "damien",
+		"profession": "Développeur mobile",
+		"projets": [
+			{
+				"annee": 2024,
+				"en_ligne": false,
+				"technos": ["flutter", "api"],
+				"titre": "Projet 1 de damien"
+			}
+		]
+	},
+	{
+		"age": 23,
+		"competences": ["html", "css", "javascript", "php"],
+		"contacts": {
+			"email": "chloe.dijou@mail.com",
+			"reseaux": {
+				"github": "https://github.com/chloedijou",
+				"linkedin": "https://linkedin.com/in/chloedijou"
+			},
+			"tel": "06 45 92 78 13"
+		},
+		"diplomes": [
+			{
+				"annee_obtention": 2022,
+				"etablissement": {
+					"nom": "Université de Lille",
+					"type": "Université",
+					"ville": "Lille"
+				},
+				"intitule": "Licence Multimédia"
+			},
+			{
+				"annee_obtention": 2020,
+				"etablissement": {
+					"nom": "Lycée Turgot",
+					"type": "Lycée",
+					"ville": "Paris"
+				},
+				"intitule": "BTS SIO"
+			}
+		],
+		"estActif": true,
+		"hobbies": ["cinéma", "musique", "voyage"],
+		"nom": "dijou",
+		"notes": {
+			"css": 14,
+			"flutter": 11,
+			"html": 15,
+			"javascript": 13,
+			"php": 14,
+			"react": 12
+		},
+		"outils": ["git", "trello"],
+		"prenom": "chloe",
+		"profession": "Intégrateur web",
+		"projets": [
+			{
+				"annee": 2023,
+				"en_ligne": true,
+				"technos": ["html", "css", "javascript"],
+				"titre": "Projet 1 de chloe"
+			}
+		]
+	},
+	{
+		"age": 27,
+		"competences": ["html", "css", "javascript", "react"],
+		"contacts": {
+			"email": "nocolas.debressy@mail.com",
+			"reseaux": {
+				"github": "https://github.com/nocolasdebressy",
+				"linkedin": "https://linkedin.com/in/nocolasdebressy"
+			},
+			"tel": "06 84 23 17 47"
+		},
+		"diplomes": [
+			{
+				"annee_obtention": 2021,
+				"etablissement": {
+					"nom": "Université de Bordeaux",
+					"type": "Université",
+					"ville": "Bordeaux"
+				},
+				"intitule": "Licence Pro Web"
+			}
+		],
+		"estActif": true,
+		"hobbies": ["musique", "cinéma", "sport"],
+		"nom": "de bressy",
+		"notes": {
+			"css": 16,
+			"flutter": 13,
+			"html": 14,
+			"javascript": 15,
+			"php": 12,
+			"react": 16
+		},
+		"outils": ["git", "docker", "trello"],
+		"prenom": "nocolas",
+		"profession": "Développeur full-stack",
+		"projets": [
+			{
+				"annee": 2023,
+				"en_ligne": true,
+				"technos": ["react", "api"],
+				"titre": "Projet 1 de nocolas"
+			}
+		]
+	},
+	{
+		"age": 29,
+		"competences": ["javascript", "react", "flutter"],
+		"contacts": {
+			"email": "joao.david@mail.com",
+			"reseaux": {
+				"github": "https://github.com/joaodavid",
+				"linkedin": "https://linkedin.com/in/joaodavid"
+			},
+			"tel": "06 78 91 22 33"
+		},
+		"diplomes": [
+			{
+				"annee_obtention": 2023,
+				"etablissement": {
+					"nom": "Université de Strasbourg",
+					"type": "Université",
+					"ville": "Strasbourg"
+				},
+				"intitule": "Master Mobile"
+			}
+		],
+		"estActif": true,
+		"hobbies": ["jeux vidéo", "sport", "lecture"],
+		"nom": "david miranda",
+		"notes": {
+			"css": 12,
+			"flutter": 18,
+			"html": 13,
+			"javascript": 17,
+			"php": 10,
+			"react": 16
+		},
+		"outils": ["git", "docker"],
+		"prenom": "joao",
+		"profession": "Développeur mobile",
+		"projets": [
+			{
+				"annee": 2024,
+				"en_ligne": false,
+				"technos": ["flutter", "firebase"],
+				"titre": "Projet 1 de joao"
+			}
+		]
+	},
+	{
+		"age": 24,
+		"competences": ["html", "css", "javascript"],
+		"contacts": {
+			"email": "lolita.marzoian@mail.com",
+			"reseaux": {
+				"github": "https://github.com/lolitamarzoian",
+				"linkedin": "https://linkedin.com/in/lolitamarzoian"
+			},
+			"tel": "06 91 23 45 67"
+		},
+		"diplomes": [
+			{
+				"annee_obtention": 2021,
+				"etablissement": {
+					"nom": "Université de Bordeaux",
+					"type": "Université",
+					"ville": "Bordeaux"
+				},
+				"intitule": "Licence Design"
+			},
+			{
+				"annee_obtention": 2019,
+				"etablissement": {
+					"nom": "Lycée Saint-Exupéry",
+					"type": "Lycée",
+					"ville": "Lyon"
+				},
+				"intitule": "BTS Design Graphique"
+			}
+		],
+		"estActif": false,
+		"hobbies": ["dessin", "musique", "voyage"],
+		"nom": "marzoian",
+		"notes": {
+			"css": 15,
+			"flutter": 12,
+			"html": 14,
+			"javascript": 13,
+			"php": 10,
+			"react": 11
+		},
+		"outils": ["trello"],
+		"prenom": "lolita",
+		"profession": "Designer UI",
+		"projets": [
+			{
+				"annee": 2023,
+				"en_ligne": true,
+				"technos": ["html", "css"],
+				"titre": "Projet 1 de lolita"
+			}
+		]
+	},
+	{
+		"age": 26,
+		"competences": ["html", "css", "javascript", "react"],
+		"contacts": {
+			"email": "carla.ounoughi@mail.com",
+			"reseaux": {
+				"github": "https://github.com/carlaounoughi",
+				"linkedin": "https://linkedin.com/in/carlaounoughi"
+			},
+			"tel": "06 54 32 18 76"
+		},
+		"diplomes": [
+			{
+				"annee_obtention": 2022,
+				"etablissement": {
+					"nom": "Université de Lille",
+					"type": "Université",
+					"ville": "Lille"
+				},
+				"intitule": "Licence Pro Web"
+			}
+		],
+		"estActif": true,
+		"hobbies": ["cinéma", "sport", "musique"],
+		"nom": "ounoughi",
+		"notes": {
+			"css": 17,
+			"flutter": 13,
+			"html": 16,
+			"php": 11,
+			"react": 17
+		},
+		"outils": ["git", "trello"],
+		"prenom": "carla",
+		"profession": "Développeur front-end",
+		"projets": [
+			{
+				"annee": 2023,
+				"en_ligne": true,
+				"technos": ["react", "api"],
+				"titre": "Projet 1 de carla"
+			}
+		]
+	},
+	{
+		"age": 25,
+		"competences": ["php", "javascript", "react", "docker"],
+		"contacts": {
+			"email": "elodie.moliere@mail.com",
+			"reseaux": {
+				"github": "https://github.com/elodiemoliere",
+				"linkedin": "https://linkedin.com/in/elodiemoliere"
+			},
+			"tel": "06 43 21 65 78"
+		},
+		"diplomes": [
+			{
+				"annee_obtention": 2023,
+				"etablissement": {
+					"nom": "Université de Strasbourg",
+					"type": "Université",
+					"ville": "Strasbourg"
+				},
+				"intitule": "Master Informatique"
+			}
+		],
+		"estActif": false,
+		"hobbies": ["lecture", "musique", "cinéma"],
+		"nom": "molière",
+		"notes": {
+			"css": 13,
+			"flutter": 12,
+			"html": 12,
+			"javascript": 14,
+			"php": 16,
+			"react": 15
+		},
+		"outils": ["git", "docker", "trello"],
+		"prenom": "elodie",
+		"profession": "Développeur back-end",
+		"projets": [
+			{
+				"annee": 2023,
+				"en_ligne": false,
+				"technos": ["php", "mysql"],
+				"titre": "Projet 1 d'elodie"
+			}
+		]
+	},
+	{
+		"age": 37,
+		"competences": ["php", "javascript", "react", "docker"],
+		"contacts": {
+			"email": "nouveaueminemfrancais@mail.com",
+			"reseaux": {
+				"github": "https://github.com/pierrebilotto",
+				"linkedin": "https://linkedin.com/in/pierrebilotto"
+			},
+			"tel": "06 87 95 65 15"
+		},
+		"diplomes": [
+			{
+				"annee_obtention": 2023,
+				"etablissement": {
+					"nom": "Université de Strasbourg",
+					"type": "Université",
+					"ville": "Strasbourg"
+				},
+				"intitule": "Master Rappeur"
+			}
+		],
+		"estActif": false,
+		"hobbies": ["manger", "se nourrir", "se substanter"],
+		"nom": "bilotto",
+		"notes": {
+			"css": 20,
+			"flutter": 12,
+			"html": 10,
+			"javascript": 14,
+			"php": 16,
+			"react": 15
+		},
+		"outils": ["fer à souder", "docker", "trello"],
+		"prenom": "pierre",
+		"profession": "Rappeur international",
+		"projets": [
+			{
+				"annee": 2023,
+				"en_ligne": false,
+				"technos": ["php", "mysql"],
+				"titre": "Rappeur de fromage"
+			}
+		]
+	},
+	{
+		"age": 37,
+		"competences": ["php", "javascript", "react", "docker"],
+		"contacts": {
+			"email": "brianlebgdu34@mail.com",
+			"reseaux": {
+				"github": "https://github.com/brianlebg",
+				"linkedin": "https://linkedin.com/in/brianlebg"
+			},
+			"tel": "06 49 46 76 26"
+		},
+		"diplomes": [
+			{
+				"annee_obtention": 2023,
+				"etablissement": {
+					"nom": "Paris la Sorbonne",
+					"type": "Université",
+					"ville": "Sorbonne"
+				},
+				"intitule": "Doctorat en séduction"
+			}
+		],
+		"estActif": false,
+		"hobbies": ["draguer", "tech party", "breakdance"],
+		"nom": "farnier",
+		"notes": {
+			"css": 15,
+			"flutter": 12,
+			"html": 17,
+			"javascript": 14,
+			"php": 16,
+			"react": 15
+		},
+		"outils": ["casquette", "beatbox", "protéine"],
+		"prenom": "brian",
+		"profession": "Coach en séduction",
+		"projets": [
+			{
+				"annee": 2023,
+				"en_ligne": false,
+				"technos": ["php", "mysql"],
+				"titre": "Les bienfaits du massage sensuel"
+			}
+		]
+	}
+]
