@@ -6,25 +6,19 @@
 }
 
 body {
-    background: #f5f5f5;
-    color: #333;
+    background: white;
+    color: #363636;
     line-height: 1.6;
 }
 
-.divContent {
-    display: flex;
-    width: 80%;
-    margin: 30px auto;
-    background: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
 
-/* HEADER */
+
+/* Header */
 .headerClass {
     display: flex;
     align-items: center;
     padding: 20px;
-    background: white;
+    background: rgb(216, 216, 216);
     width: 80%;
     margin: 20px auto 0;
 }
@@ -58,7 +52,17 @@ body {
     color: #555;
 }
 
-/* ASIDE */
+/* Div content (qui regroupe aside et main(normalement(en théorie (supposément)))) */
+
+.divContent {
+    display: flex;
+    width: 80%;
+    margin: 30px auto;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Aside */
 .asideClass {
     width: 30%;
     background: #4ca3d9;
@@ -83,7 +87,7 @@ body {
     line-height: 1.4;
 }
 
-/* MAIN */
+/* Main */
 .mainClass {
     width: 70%;
     padding: 20px 30px;
@@ -110,12 +114,60 @@ body {
 }
 
 
+/* Footer */
+.footerClass {
+    width: 80%;
+    margin: 20px auto;
+    background: #4ca3d9;
+    color: white;
+    text-align: center;
+    padding: 15px 10px;
+    font-size: 14px;
+    border-radius: 0 0 6px 6px;
+}
 
-/* RESPONSIVE */
+
+
+/* Boutons du carrousel */
+.buttonLeft,
+.buttonRight {
+    background-color: #ffffff;
+    color: rgb(131, 26, 163);
+    border: 2px solid #c41616;
+    padding: 8px 16px;
+    margin: 10px 5px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.buttonLeft:hover,
+.buttonRight:hover {
+    background-color: rgb(131, 26, 163);
+    color: #ffffff;
+    transform: scale(1.05);
+}
+
+.buttonLeft:active,
+.buttonRight:active {
+    transform: scale(0.95);
+}
+
+
+
+
+/* Responsive (pas ouf mais c'est pas comme ça que j'imaginais la vie en fait) */
 @media (max-width: 850px) {
     .divContent {
         flex-direction: column;
         width: 80%;
+    }
+
+    .headerClass {
+        flex-direction: column;
+        align-items: flex-start;
     }
 
     .asideClass,
@@ -123,8 +175,9 @@ body {
         width: 100%;
     }
 
-    .headerClass {
-        flex-direction: column;
-        align-items: flex-start;
+    .footerClass {
+        width: 80%;
+        font-size: 13px;
+        padding: 10px;
     }
 }

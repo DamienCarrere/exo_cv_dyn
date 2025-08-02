@@ -1,13 +1,16 @@
 import { createCv } from "./module/cv.js";
+import { getIndexForCarousel } from "./module/buttonCarousel.js";
+import { setUsersData } from "./module/buttonCarousel.js";
 
 async function mainJS() {
 	const response = await fetch("users.json");
 	const users = await response.json();
 
-	// users.forEach((user) => {
-	// 	createCv(user); // Génère un CV par utilisateur
-	// });
-	createCv(users[0]);
+	setUsersData(users);
+
+	const indexForCarousel = getIndexForCarousel();
+
+	createCv(users[indexForCarousel]);
 }
 
 mainJS();
