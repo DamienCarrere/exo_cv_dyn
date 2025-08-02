@@ -1,7 +1,9 @@
 import { createAndAddElement } from "./createAndAddElement.js";
+import { getMainDiv } from "./cv.js";
 
 export function sectionNotes(user) {
-	const sectionNotes = createAndAddElement("section", "");
+	const main = getMainDiv();
+	const sectionNotes = createAndAddElement("section", "", main);
 	sectionNotes.classList.add("sectionNotes");
 	const thNotes = createAndAddElement("h6", "Notes :", sectionNotes);
 	thNotes.classList.add("miniTitle");

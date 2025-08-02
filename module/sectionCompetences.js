@@ -1,7 +1,9 @@
 import { createAndAddElement } from "./createAndAddElement.js";
+import { getAsideDiv } from "./cv.js";
 
 export function sectionCompetences(user) {
-	const sectionCompetences = createAndAddElement("section", "");
+	const aside = getAsideDiv();
+	const sectionCompetences = createAndAddElement("section", "", aside);
 	sectionCompetences.classList.add("sectionCompetences");
 	const thCompetences = createAndAddElement(
 		"h6",

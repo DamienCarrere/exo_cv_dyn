@@ -1,10 +1,11 @@
 import { createAndAddElement } from "./createAndAddElement.js";
+import { getHeaderDiv } from "./cv.js";
 
 export function headerCV(user) {
-	const titleCV = createAndAddElement("h1", "CV");
+	const header = getHeaderDiv();
+	const titleCV = createAndAddElement("h1", "CV", header);
 	titleCV.classList.add("titleCV");
-
-	const headerCV = createAndAddElement("div", "");
+	const headerCV = createAndAddElement("div", "", header);
 	headerCV.classList.add("headerCV");
 	const nomPrenom = createAndAddElement("h3", "", headerCV);
 	nomPrenom.classList.add("nomPrenom");

@@ -1,7 +1,8 @@
 import { createAndAddElement } from "./createAndAddElement.js";
-
+import { getMainDiv } from "./cv.js";
 export function sectionDiplomes(user) {
-	const sectionDiplomes = createAndAddElement("section", "");
+	const main = getMainDiv();
+	const sectionDiplomes = createAndAddElement("section", "", main);
 	sectionDiplomes.classList.add("sectionDiplomes");
 	const thDiplomes = createAndAddElement("h6", "Diplômes :", sectionDiplomes);
 	thDiplomes.classList.add("miniTitle");

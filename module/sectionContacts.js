@@ -1,7 +1,9 @@
 import { createAndAddElement } from "./createAndAddElement.js";
+import { getAsideDiv } from "./cv.js";
 
 export function sectionContacts(user) {
-	const sectionContacts = createAndAddElement("section", "");
+	const aside = getAsideDiv();
+	const sectionContacts = createAndAddElement("section", "", aside);
 	sectionContacts.classList.add("sectionContacts");
 	const thContacts = createAndAddElement("h6", "Contacts :", sectionContacts);
 	thContacts.classList.add("miniTitle");

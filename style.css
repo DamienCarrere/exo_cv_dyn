@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+.divContent {
+    display: flex;
+    width: 80%;
+    margin: 30px auto;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* HEADER */
+.headerClass {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background: white;
+    width: 80%;
+    margin: 20px auto 0;
+}
+
+.headerClass .titleCV {
+    font-size: 28px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.headerCV {
+    display: flex;
+    flex-direction: column;
+}
+
+.nomPrenom {
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.age {
+    font-size: 14px;
+    color: #666;
+}
+
+.profession {
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 5px;
+    color: #555;
+}
+
+/* ASIDE */
+.asideClass {
+    width: 30%;
+    background: #4ca3d9;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.asideClass .miniTitle {
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    padding-bottom: 4px;
+}
+
+.asideClass p {
+    font-size: 13px;
+    line-height: 1.4;
+}
+
+/* MAIN */
+.mainClass {
+    width: 70%;
+    padding: 20px 30px;
+}
+
+.mainClass .miniTitle {
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(76, 185, 253);
+    border-bottom: 1px solid #4ca3d9;
+    margin-bottom: 10px;
+    padding-bottom: 3px;
+}
+
+.mainClass p {
+    font-size: 14px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.mainClass section {
+    margin-bottom: 20px;
+}
+
+
+
+/* RESPONSIVE */
+@media (max-width: 850px) {
+    .divContent {
+        flex-direction: column;
+        width: 80%;
+    }
+
+    .asideClass,
+    .mainClass {
+        width: 100%;
+    }
+
+    .headerClass {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
